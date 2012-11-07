@@ -61,6 +61,9 @@
           <generateClient>true</generateClient>
           <archive>
             <addMavenDescriptor>false</addMavenDescriptor>
+            <manifestEntries>
+              <Dependencies>org.jboss.xnio</Dependencies>
+            </manifestEntries>
           </archive>
         </configuration>
       </plugin>
